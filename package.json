@@ -1,8 +1,15 @@
 {
   "name": "tyfon-conventions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TyFON conventions for mapping functions to endpoints",
-  "main": "index.js",
+  "main": "dist/es5/index.js",
+  "module": "dist/es6/index.js",
+  "types": "dist/es6/index.d.ts",
+  "files": [
+    "dist/es5",
+    "dist/es6"
+  ],
+  "sideEffects": false,
   "scripts": {
     "test": "ts-node --project conf/typescript/test.json test.ts",
     "build-es5": "tsc -p conf/typescript/es5.json",
