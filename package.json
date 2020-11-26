@@ -1,6 +1,6 @@
 {
   "name": "tyfon-conventions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TyFON conventions for mapping functions to endpoints",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",

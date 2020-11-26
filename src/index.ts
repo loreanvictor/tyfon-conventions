@@ -52,3 +52,6 @@ export function possibleNames(endpoint: HttpEndpoint) {
     return res;
   }
 }
+
+
+export { parseJson } from './parse';
