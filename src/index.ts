@@ -54,4 +54,4 @@ export function possibleNames(endpoint: HttpEndpoint) {
 }
 
 
-export { parseJson } from './parse';
+export { parseJson, jsonReviver } from './parse';
